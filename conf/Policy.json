@@ -1,0 +1,44 @@
+{
+    "policy": [
+        {
+            "guid": "37b8c673-5624-46a3-a397-132128666f9a",
+            "policyDetail": {
+                "folderId": "e2f9c01a5ceea532b7613a9c35cd11f4",
+                "guid": "37b8c673-5624-46a3-a397-132128666f9a",
+                "id": "e2f9c01a5ceea532b7613a9c35cd123a",
+                "name": "secret",
+                "policyType": "Include",
+                "properties": {
+                    "property": [
+                        {
+                            "key": "hasRouting",
+                            "booleanValue": "false"
+                        },
+                        {
+                            "key": "revision",
+                            "longValue": "1"
+                        },
+                        {
+                            "key": "soap",
+                            "booleanValue": "false"
+                        }
+                    ]
+                }
+            },
+            "resources": {
+                "resourceSet": [
+                    {
+                        "tag": "policy",
+                        "resource": [
+                            {
+                                "type": "policy",
+                                "content": "secretFolder\/secret.xml"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "id": "e2f9c01a5ceea532b7613a9c35cd123a"
+        }
+    ]
+}
